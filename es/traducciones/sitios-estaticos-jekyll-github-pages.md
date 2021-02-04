@@ -112,7 +112,7 @@ Todos los elementos que vamos a instalar son herramientas de desarrollo web est�
 
 Este tutorial está destinado a usuarios de Windows y Mac. Jekyll también funciona en Linux; sin embargo, para fines pedagógicos, este tutorial utiliza el software GitHub Desktop (disponible para Windows y Mac únicamente); los usuarios de Linux tienen que usar [git](https://git-scm.com/docs/gittutorial) para ello ((lo cual este tutorial no aborda)).
 
-Jekyll no es oficialmente compatible con Windows, lo que significa que la documentación oficial de Jekyll (las páginas que guían a través de la configuración y que explican su funcionamiento) no aborda el uso de Windows. Este tutorial se basa en [las instrucciones de Windows de David Burela](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) para las partes de la sección [Instalación de dependencias](#section2) en las que los usuarios de Windows deben hacer algo diferente, sin embargo, como parte de esta traducción al castellano hemos revisado el proceso de instalación en Windows.
+Jekyll no es oficialmente compatible con Windows, lo que significa que la documentación oficial de Jekyll (las páginas que guían a través de la configuración y que explican su funcionamiento) no aborda el uso de Windows. Este tutorial se basa en [las instrucciones de Windows de David Burela](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/) para las partes de la sección [Instalación de dependencias](#section2) en las que los usuarios de Windows deben hacer algo diferente. Sin embargo, como parte de esta traducción al castellano hemos revisado el proceso de instalación en Windows.
 
 ### Cuenta de usuario de GitHub <a id="section1-1"></a>
 
@@ -352,7 +352,7 @@ Si recibes la respuesta “jekyll x.x.x” (la última versión de Jekyll actual
 ![Screenshot](https://programminghistorian.org/images/building-static-sites-with-jekyll-github-pages/building-static-sites-with-jekyll-github-pages-11.png)
    
 
-### Mini ayudamemoria <a id="section3a-1"></a>
+### Guía de repaso <a id="section3a-1"></a>
 
 - Escribe `bundle exec jekyll serve --watch` en la línea de comandos para ejecutar el sitio web localmente. Visita **localhost:4000** en un navegador para visualizar el sitio localmente. En la próxima sección haremos modificaciones que nos obligarán a visitar **localhost:4000/JekyllDemo/** para poder visualizar el sitio (ingresando el nombre de la carpeta de tu sitio web en lugar de *JekyllDemo* y asegurándote de incluir la barra final **/**).
 
@@ -592,7 +592,7 @@ Puedes personalizar el tema de tu sitio realizando cambios en los archivos que s
 
 - Además, puedes **migrar un blog existente** desde otras plataformas, incluyendo WordPress, Blogger, Drupal y Tumblr, para lo cual debes seguir el enlace que se encuentra en el sector derecho de [esta página](https://import.jekyllrb.com/docs/home/). Cuando migres un sitio, asegúrate de tener una copia de seguridad de tu sitio original, en caso de que necesites realizar más de un intento para que las publicaciones del sitio queden en la misma URL que antes (y que de esta forma el sitio se mantenga en los resultados de los buscadores y en los marcadores). 
 
-## Guía <a id="section8"></a>
+## Guía de repaso <a id="section8"></a>
 
 **Para realizar pruebas en el sitio de forma local** (nuevos plugins, temas, o explorar cómo luce una nueva publicación):
 
